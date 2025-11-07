@@ -25,7 +25,13 @@ const Login = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
   return (
-    <Grid container sx={{ height: "100vh", overflow: "hidden" }}>
+    <Grid container sx={{
+    width: "100vw",
+    height: "100vh",
+    margin: 0,
+    padding: 0,
+    overflow: "hidden",
+  }}>
       {/* ✅ Left Side Brand Panel */}
       <Grid
         item
@@ -61,7 +67,7 @@ const Login = () => {
         alignItems="center"
         sx={{
           bgcolor: "#F4F7F6",
-          width: "100%",
+          width: "66.5%",
         }}
       >
         <Paper
